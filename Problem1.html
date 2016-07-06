@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Practice Problems</title>
+</head>
+<body>
+	<script>
+	var feet = parseFloat(prompt("What is your height in feet?"));
+	var inches = parseFloat(prompt("What is your height inches?"));
+	var pounds = parseFloat(prompt("What is your weight in pounds"));
+
+	var kilos = pounds / 2.2;
+	var totalInches = (feet * 12) + inches;
+	var meters = totalInches * 0.0254;
+
+	var bmi = kilos / (meters * meters);
+	
+	console.log(bmi);
+	
+	</script>
+</body>
+</html>
